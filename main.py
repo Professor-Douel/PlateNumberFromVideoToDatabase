@@ -4,8 +4,6 @@ from sqlalchemy.orm import Session
 
 from db.engine import SessionLocal
 import crud
-from db.models import DBPlateNumber
-
 
 app = FastAPI()
 

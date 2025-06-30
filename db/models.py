@@ -2,7 +2,7 @@ import datetime
 
 from sqlalchemy import Column, Integer, String, DateTime
 
-from db.engine import Base
+from backend.db.engine import Base
 
 
 class DBPlateNumber(Base):

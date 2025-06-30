@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
 
-from db import models
+from backend.db import models
 
 
 def get_all_plate_numbers(db: Session):

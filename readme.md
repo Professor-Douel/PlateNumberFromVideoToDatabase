@@ -48,6 +48,9 @@ poetry shell
 uvicorn main:app --reload
 ```
 
+# Start the script file
+python service.py
+
 Visit: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 ### Start Webcam Plate Number Capture
