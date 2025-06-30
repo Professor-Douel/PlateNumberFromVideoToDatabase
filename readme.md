@@ -46,11 +46,13 @@ poetry shell
 
 # Start the FastAPI server
 uvicorn main:app --reload
-```
 
 # Start the script file
 python service.py
 
+# Stop the service press button:
+"q"
+```
 Visit: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 ### Start Webcam Plate Number Capture
