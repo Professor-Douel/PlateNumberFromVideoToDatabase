@@ -1,6 +1,9 @@
 # Plate Number Recognition System
 
-This is a FastAPI-based application that captures vehicle plate numbers using a webcam and stores the plate number along with the date and time of detection in a SQLite database.
+This is a FastAPI-based application that captures vehicle plate numbers 
+using a webcam and stores the plate number along with the date and time of 
+detection in a SQLite database. After some time, which can be adjusted, the 
+service records the number again, but with a different recording time.
 
 ## Features
 
